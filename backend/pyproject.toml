@@ -1,9 +1,9 @@
 [project]
 name = "backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "A demo ATS backend built with Django, DRF, Postgres"
 readme = "README.md"
-requires-python = ">=3.14.0"
+requires-python = ">=3.13.8"
 dependencies = [
     "django>=5.2.7",
     "django-cors-headers>=4.9.0",
@@ -12,4 +12,12 @@ dependencies = [
     "psycopg[binary]>=3.2.12",
     "python-dotenv>=1.2.1",
     "uvicorn>=0.38.0",
+    "drf-standardized-errors>=0.15.0",
+    "django-phonenumber-field[phonenumberslite]>=8.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.6.0",
+    "black>=25.9.0",
 ]
