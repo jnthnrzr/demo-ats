@@ -1,0 +1,30 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+venv/
+.venv/
+env/
+.env.local/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.ruff_cache/
+
+# Editor/IDE specific ignores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Version control ignores
+.git/
+.gitignore
+
+# Operating system specific ignores
+.DS_Store
+Thumbs.db
